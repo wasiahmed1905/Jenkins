@@ -9,13 +9,13 @@ public class Any {
         System.out.println("=== Java Console Calculator ===");
 
         while (keepRunning) {
-            System.out.print("\nEnter first number: ");
+            System.out.print("\nEnter 1st number: ");
             double num1 = getValidNumber(scanner);
 
             System.out.print("Enter an operator (+, -, *, /): ");
             char operator = scanner.next().charAt(0);
 
-            System.out.print("Enter second number: ");
+            System.out.print("Enter 2nd number: ");
             double num2 = getValidNumber(scanner);
 
             double result;

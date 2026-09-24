@@ -12,7 +12,7 @@ public class Any {
             System.out.print("\nEnter 1st number: ");
             double num1 = getValidNumber(scanner);
 
-            System.out.print("Enter an operator (+, -, *, /): ");
+            System.out.print("Enter operator (+, -, *, /): ");
             char operator = scanner.next().charAt(0);
 
             System.out.print("Enter 2nd number: ");
@@ -54,7 +54,7 @@ public class Any {
             String response = scanner.next().trim().toLowerCase();
             if (!response.equals("yes") && !response.equals("y")) {
                 keepRunning = false;
-                System.out.println("Exiting calculator. Good!");
+                System.out.println("Exiting Calculator. Good!");
             }
         }
 
